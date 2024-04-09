@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <script src="js/carousel_image.js"></script>
+    <title>SABER MÁS</title>
+</head>
+<body>
+    <!-- Shell -->
+  <div class="shell">
+    <!-- Header -->
+    <div id="header">
+      <!-- Logo -->
+      <h1 id="logo"><a href="#">LOGO</a></h1>
+    <div id="nav">
+      <ul>
+        <li><a href="sobre Nosotros.html">Sobre Nosotros</a></li>
+        <li><a class="active" href="servicios.html">Nuestros Servicios</a></li>
+        <li><a href="index.html">Inicio</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="photo" onclick="showInfo('Mantenimiento preventivo', ' Incluye cambios de aceite, revisión de frenos, suspensión y sistema eléctrico.', '$150 - $300.')">
+        <img src="css/images/servicio1.png" alt="Photo 1">
+    </div>
+    <div class="photo" onclick="showInfo('Reparación de averías', 'Identificación y solución de problemas en el vehículo.', '$100 - $500')">
+        <img src="css/images/servicio2.png" alt="Photo 2">
+    </div>
+    <div class="photo" onclick="showInfo('Revisión y reparación de la transmisión', 'Ajustes y cambios de aceite para asegurar su buen rendimiento.', ' $200 - $600.')">
+        <img src="css/images/servicio3.png" alt="Photo 3">
+    </div>
+    <div class="photo" onclick="showInfo('Reparación de la suspensión', 'Cambios de amortiguadores, resortes y bujes.', '$200 - $400.')">
+        <img src="css/images/servicio4.png" alt="Photo 4">
+    </div>
+    <div class="photo" onclick="showInfo('Servicios de frenos', ' Mantenimiento y reparación del sistema de frenado.', '$100 - $300.')">
+        <img src="css/images/servicio5.png" alt="Photo 5">
+    </div>
+    <div class="photo" onclick="showInfo('Servicio de alineación y balanceo', ' Este servicio asegura que las ruedas del vehículo están configuradas correctamente para minimizar el desgaste de los neumáticos y mejorar la maniobrabilidad del vehículo.', '$75 - $200')">
+        <img src="css/images/servicio6.png" alt="Photo 6">
+    </div>
+  </div>
+
+<div id="photoInfo">
+  <button id="closeButton" onclick="hideInfo()">Salir</button>
+  <span id="photoName"></span><br>
+  <span id="photoDescription"></span><br>
+  <span id="photoPrice"></span><br>
+</div>
+</div>
+<footer class="footer4">
+  <p> <img id="whats" src="css/images/wspchico.jpg"> &copy; TChelsea.cl Diseñado por Christian Hernandez, Benjamin Navarro <a href="http://DuocUC.cl">DuocUC.cl</a></p>
+</footer> 
+</body>
+
+
+</html> 
